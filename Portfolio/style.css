@@ -1,0 +1,497 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /* background-color: rgb(0, 0, 0); */
+    color: white;
+    font-family: 'Ysabeau Infant', sans-serif;
+}
+
+main{
+    background-color: rgba(39, 36, 36, 0.116);
+    /* height: 100vh; */
+}
+
+video{
+    z-index: -1;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.menu{
+    display: none;
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    height: 55px;
+    color: black;
+    z-index: 99;
+    /* background-color: rgb(35 11 11); */
+    /* width: 100vw; */
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li{
+    color: black;
+    list-style-type: none;
+    margin: 0 23px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(201 0 0);
+    font-weight: 900;
+    transition-duration: 0.8s;
+    font-size: 1.1rem;
+}
+
+nav ul li a:hover{
+    color: #adf700;
+}
+
+/* .nav .left::before{
+    content: "Nishil";
+} */
+
+.left{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 1.5rem;
+    color: white;
+    position: relative;
+    /* height: 80px; */
+    z-index: 1;
+    transition-duration: 1.2s;
+}
+
+.left::before{
+    content: "Nishil's Portfolio";
+    position: absolute;
+    color: #38c700;
+    top: -1px;
+    left: -2px;
+    z-index: -1;
+    -webkit-text-stroke: 2px #38c700;
+    /* color: #0e4745; */
+}
+
+.left:hover{
+    /* color: #0e4745; */
+
+    font-size: 1.4rem;
+    cursor: crosshair;
+
+}
+
+.firstSection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* margin: 60px 0; */
+    height: 95vh;
+    position: relative;
+    top: 30px;
+}
+
+/* .firstSection > div{
+    width: 30%;
+} */
+
+.leftSection{
+    width: 30%;
+    /* background-color: red; */
+    font-weight: 800;
+    font-size: 3rem;
+    color: black;
+    /* margin: 290px 0; */
+}
+
+.rightSection{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    /* background-color: red; */
+    left: 25px;
+}
+
+.rightSection img{
+    width: 70%;
+}
+
+.namecolor{
+    color: rgb(127, 0, 247);
+}
+
+#element{
+    color: rgb(247, 0, 0);
+    font-weight: 800;
+}
+
+.buttons{
+    display: none;
+}
+
+.hr{
+    /* border: 0; */
+    background-color: rgb(154, 98, 207);
+    margin: 40px 84px;
+    height: 1.2px;
+}
+
+.secondSection{
+    max-width: 80vw;
+    margin: auto;
+    height: 100vh;
+}
+
+/* .secondSection h1{
+    font-size: 1.8rem;
+    text-align: center;
+    position: relative;
+    color: rgb(255, 255, 255);
+    top: 18px;
+    height: 80px;
+    position: relative;
+} */
+
+.scroller{
+    /* background-color: red; */
+    white-space: nowrap;
+    /* color: white; */
+}
+
+.scroller h1{
+    font-family: 'Montserrat', sans-serif;
+    /* color: #ffffff; */
+    /* color: transparent; */
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 65px;
+    position: relative;
+    font-weight: 800;
+    /* -webkit-text-stroke: 2px #adf700; */
+    text-shadow: 2px 2px #adf700;
+}
+
+
+.internshiptimeline{
+    background: rgb(255, 255, 255);
+    height: 1px;
+    width: 80vw;
+    display: flex;
+    margin: 60px 0;
+}
+
+.vertical{
+    background-color: rgb(255, 255, 255);
+    height: 65px;
+    width: 1px;
+    margin: 0 255px;
+}
+
+.vertitle{
+    position: relative;
+    top: 70px;
+    right: 160px;
+    width: 339px;
+    /* display: flex; */
+    text-align: center;
+    font-weight: bolder;
+    font-size: 27px;
+    color: #adf700;
+}
+
+.work{
+    position: relative;
+    top: 75px;
+    width: 215px;
+    /* display: flex; */
+    text-align: center;
+    right: 100px;
+    color: #7dcded;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+footer{
+    background-color: rgb(15 9 61);
+    height: 230px;
+}
+
+.footer{
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+}
+
+footer ul{
+    list-style: none;
+}
+
+footer li{
+    margin: 15px;
+}
+
+.lang-learned{
+    margin-top: 210px;
+    color: #ffffff;
+    font-weight: 800;
+}
+.lang-learned h1{
+    font-family: 'Montserrat', sans-serif;
+    /* color: #ffffff; */
+    /* color: transparent; */
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 65px;
+    position: relative;
+    font-weight: 800;
+    /* -webkit-text-stroke: 2px #adf700; */
+    text-shadow: 2px 2px #adf700;}
+
+/* .hr{
+    background-color: rgb(154, 98, 207);
+    margin: 40px 84px;
+    height: 1.2px;
+} */
+
+.horizontal-langs{
+    border-bottom: 2px solid rgb(255, 255, 255);
+    border-left: 2px solid;
+    width: 20px;
+    padding: 5px;
+}
+
+.lang-name{
+    font-size: 1.3rem;
+    position: relative;
+    color: #7dcded;
+    top: 19px;
+    left: 30px;
+    font-weight: bold;
+    width: 14vw;
+}
+
+.second-hr{
+    background-color: rgb(154, 98, 207);
+    margin: 40px -98px;
+    height: 1px;
+    width: 1735px;
+    position: relative;
+    top: 170px;
+}
+
+lang-li{
+        position: relative;
+        top: 50px;
+        width: 35vw;
+        display: block;
+        left: 675px;
+}
+
+
+/* Responsive CSS Start Here! */
+
+@media screen and (max-width: 1832px) {
+
+
+    .leftSection{
+        font-size: 2.2rem;
+    }
+
+    .rightSection img {
+        width: 52%;
+    }
+
+    .vertical{
+        margin: 0 182px;
+    }
+
+    .second-hr{
+        top: 170px;
+        width: auto;
+    }
+    
+    .lang-learned{
+        margin-top: 185px;
+        /* background-color: #38c700; */
+    }
+
+    lang-li {
+        top: 25px;
+        left: 465px;
+    }
+
+    .secondSection{
+        height: 150vh;
+    }
+
+    .lang-name{
+        top: 23px;
+        width: 17vw;
+    }
+
+}
+
+/* Mobile Responsive Design Below */
+
+@media screen and (max-width: 1200px) {
+
+    html{
+        width: 100%;
+    }
+    body{
+        width: 100%;
+    }
+
+    main{
+        width: 100%;
+    }
+
+    .menu{
+        display: none;
+    }
+    
+    nav{
+        font-family: Montserrat,sans-serif;
+        height: 50px;
+        /* width: 100vw; */
+    }
+
+    .left {
+        font-size: 1.2rem;
+    }
+
+    .right{
+        display: none;
+    }
+      
+    .firstSection{
+        /* background-color: #2efff7; */
+        flex-direction: column-reverse;
+        height: 94vh;
+        justify-content: space-evenly;
+
+    }
+
+    .leftSection{
+        font-size: 2rem;
+        width: 90%;
+    }
+
+    /* .firstSection > div {
+        width: 85%;
+    } */
+
+    .rightSection {
+        left: 0px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .rightSection img {
+        width: 47%;
+    }
+
+    .buttons{
+        display: flex;
+        justify-content: center;
+        /* position: relative;
+        right: 18px; */
+    }
+    
+    .buttons .btn a{
+        text-decoration: none;
+        list-style: none;
+        color: white;
+    }
+
+    .btn{
+        height: 40px;
+        width: 110px;
+        background-color: #6d1eb7;
+        color: white;
+        border-radius: 5px;
+    }
+
+    .second-hr {
+        width: auto;
+        margin: auto;
+        margin-bottom: 35px;
+    }    
+
+    .scroller h1{
+        font-size: 35px;
+    }
+
+    .internshiptimeline{
+        flex-direction: column;
+        margin-top: 40px;
+    }
+
+    .vertical {
+        /* height: unset; */
+        position: relative;
+        top: 2px;
+        border-bottom: 1px solid white;
+        border-left: 1px solid;
+        width: 20px;
+        padding: 5px;
+        margin: 0px;
+        background-color: black;
+    }
+
+    .vertitle{
+        text-align: left;
+        top: 0px;
+        left: 35px;
+        font-size: 20px;
+        width: 100%;
+        min-width: 255px;
+        max-width: 350px;
+    }
+
+    .work{
+        text-align: left;
+        top: -2px;
+        left: 35px;
+        font-size: 15px;
+    }
+
+    .lang-learned h1{
+        font-size: 35px;
+    }
+
+    .lang-name {
+        top: 18px;
+        width: 60vw;
+    }
+
+    lang-li {
+        top: 35px;
+        height: 415px;
+        left: 0;
+    }
+
+    .secondSection {
+        height: 120vh;
+    }
+
+}
