@@ -190,6 +190,14 @@ nav ul li a:hover{
     text-shadow: 2px 2px #adf700;
 }
 
+.currentinfo-hr{
+    background-color: rgb(154, 98, 207);
+    margin: 40px -98px;
+    height: 1px;
+    /* width: 1735px; */
+    position: relative;
+    top: 110px;
+}
 
 .internshiptimeline{
     background: rgb(255, 255, 255);
@@ -216,6 +224,11 @@ nav ul li a:hover{
     font-weight: bolder;
     font-size: 27px;
     color: #adf700;
+}
+
+.internships-information{
+    position: relative;
+    top: 130px
 }
 
 .work{
@@ -250,7 +263,7 @@ footer li{
 }
 
 .lang-learned{
-    margin-top: 210px;
+    margin-top: 315px;
     color: #ffffff;
     font-weight: 800;
 }
@@ -295,7 +308,7 @@ footer li{
     height: 1px;
     width: 1735px;
     position: relative;
-    top: 170px;
+    top: 285px;
 }
 
 lang-li{
@@ -325,12 +338,12 @@ lang-li{
     }
 
     .second-hr{
-        top: 170px;
+        top: 285px;
         width: auto;
     }
     
     .lang-learned{
-        margin-top: 185px;
+        margin-top: 315px;
         /* background-color: #38c700; */
     }
 
@@ -340,7 +353,7 @@ lang-li{
     }
 
     .secondSection{
-        height: 150vh;
+        height: 185vh;
     }
 
     .lang-name{
@@ -430,11 +443,15 @@ lang-li{
         color: white;
         border-radius: 5px;
     }
-
+    .currentinfo-hr{
+        width: auto;
+        margin: auto;
+        margin-bottom: 10px;
+    }
     .second-hr {
         width: auto;
         margin: auto;
-        margin-bottom: 35px;
+        margin-top: 115px;
     }    
 
     .scroller h1{
@@ -443,7 +460,7 @@ lang-li{
 
     .internshiptimeline{
         flex-direction: column;
-        margin-top: 40px;
+        margin-top: 15px;
     }
 
     .vertical {
@@ -472,6 +489,7 @@ lang-li{
         text-align: left;
         top: -2px;
         left: 35px;
+        width: 245px;
         font-size: 15px;
     }
 
@@ -491,7 +509,7 @@ lang-li{
     }
 
     .secondSection {
-        height: 120vh;
+        height: 145vh;
     }
 
 }
